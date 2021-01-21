@@ -1,0 +1,147 @@
+DIGEST f5b4589e34d47a686798ac810845acaa
+FTact
+R1114:1123 Coq.Logic.EqdepFacts <> <> lib
+R1141:1149 Coq.Logic.Eqdep_dec <> <> lib
+prf 1172:1184 <> inj_pair2_UIP
+R1213:1213 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1255:1263 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1277:1280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1276:1276 Tact <> A var
+R1292:1292 Tact <> A var
+R1301:1301 Tact <> P var
+R1303:1303 Tact <> p var
+R1343:1355 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1357:1359 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1356:1356 Tact <> x var
+R1360:1360 Tact <> y var
+R1328:1330 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1316:1321 Coq.Init.Specif <> existT constr
+R1327:1327 Tact <> x var
+R1325:1325 Tact <> p var
+R1323:1323 Tact <> P var
+R1331:1336 Coq.Init.Specif <> existT constr
+R1342:1342 Tact <> y var
+R1340:1340 Tact <> p var
+R1338:1338 Tact <> P var
+R1228:1228 Tact <> A var
+R1241:1243 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1240:1240 Tact <> x var
+R1244:1244 Tact <> y var
+R1250:1252 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1248:1249 Tact <> p1 var
+R1253:1254 Tact <> p2 var
+R1403:1422 Coq.Logic.EqdepFacts <> eq_dep_eq__inj_pair2 thm
+R1403:1422 Coq.Logic.EqdepFacts <> eq_dep_eq__inj_pair2 thm
+R1441:1461 Coq.Logic.EqdepFacts <> eq_rect_eq__eq_dep_eq thm
+R1441:1461 Coq.Logic.EqdepFacts <> eq_rect_eq__eq_dep_eq thm
+R1474:1496 Coq.Logic.EqdepFacts <> Streicher_K__eq_rect_eq thm
+R1474:1496 Coq.Logic.EqdepFacts <> Streicher_K__eq_rect_eq thm
+R1509:1529 Coq.Logic.EqdepFacts <> UIP_refl__Streicher_K thm
+R1509:1529 Coq.Logic.EqdepFacts <> UIP_refl__Streicher_K thm
+R1542:1554 Coq.Logic.EqdepFacts <> UIP__UIP_refl thm
+R1542:1554 Coq.Logic.EqdepFacts <> UIP__UIP_refl thm
+R2560:2560 Tact <> x var
+R2560:2560 Tact <> x var
+R2572:2587 Coq.Init.Wf <> well_founded_ind thm
+def 2640:2652 <> Marker_invert
+R2657:2660 Coq.Init.Logic <> True ind
+R2825:2828 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2812:2824 Tact <> Marker_invert def
+R2825:2828 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2812:2824 Tact <> Marker_invert def
+R2871:2874 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2866:2868 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2871:2874 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2866:2868 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2948:2951 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2931:2933 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2917:2922 Coq.Init.Specif <> existT constr
+R2934:2939 Coq.Init.Specif <> existT constr
+R2948:2951 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2931:2933 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2917:2922 Coq.Init.Specif <> existT constr
+R2934:2939 Coq.Init.Specif <> existT constr
+R3379:3382 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3375:3377 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3379:3382 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3375:3377 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3085:3087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3132:3144 Tact <> inj_pair2_UIP thm
+R4041:4045 Tact <> Hgoal var
+R4109:4121 Tact <> Marker_invert def
+R4141:4141 Coq.Init.Logic <> I constr
+R4375:4387 Tact <> Marker_invert def
+R4375:4387 Tact <> Marker_invert def
+R4658:4661 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4658:4661 Coq.Init.Logic <> :type_scope:x_'->'_x not
+prf 5307:5317 <> eq_fn_apply
+R5350:5350 Tact <> T var
+R5359:5362 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5363:5363 Tact <> U var
+R5358:5358 Tact <> T var
+R5376:5383 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5387:5389 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5384:5384 Tact <> f var
+R5386:5386 Tact <> x var
+R5390:5390 Tact <> f var
+R5392:5392 Tact <> y var
+R5372:5374 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5371:5371 Tact <> x var
+R5375:5375 Tact <> y var
+R5632:5632 Coq.Init.Datatypes <> S constr
+R5632:5632 Coq.Init.Datatypes <> S constr
+R6089:6095 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6099:6100 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6089:6095 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6099:6100 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6248:6251 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6248:6251 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6382:6385 Coq.Init.Datatypes <> prod ind
+R6382:6385 Coq.Init.Datatypes <> prod ind
+def 6783:6785 <> car
+R6806:6809 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6805:6805 Tact <> P var
+R6810:6810 Tact <> Q var
+R6815:6815 Tact <> P var
+R6844:6844 Tact <> p var
+R6844:6844 Tact <> p var
+def 6869:6871 <> cdr
+R6892:6895 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6891:6891 Tact <> P var
+R6896:6896 Tact <> Q var
+R6901:6901 Tact <> Q var
+R6930:6930 Tact <> q var
+R6930:6930 Tact <> q var
+R6970:6972 Tact <> car def
+not 6954:6954 <> :tactics_scope:x_'andel'
+R7070:7072 Tact <> cdr def
+not 7054:7054 <> :tactics_scope:x_'ander'
+R7205:7210 Tact <> :tactics_scope:x_'andel' not
+R7199:7204 Tact <> :tactics_scope:x_'ander' not
+not 7181:7181 <> :tactics_scope:x_'anderl'
+R7314:7319 Tact <> :tactics_scope:x_'ander' not
+R7308:7313 Tact <> :tactics_scope:x_'ander' not
+not 7290:7290 <> :tactics_scope:x_'anderr'
+R7430:7435 Tact <> :tactics_scope:x_'andel' not
+R7424:7429 Tact <> :tactics_scope:x_'ander' not
+R7418:7423 Tact <> :tactics_scope:x_'ander' not
+not 7399:7399 <> :tactics_scope:x_'anderrl'
+not 7516:7516 <> :tactics_scope:x_'_#2'
+not 7611:7611 <> :tactics_scope:x_'_#3'
+not 7708:7708 <> :tactics_scope:x_'_#4'
+not 7807:7807 <> :tactics_scope:x_'_#5'
+not 7908:7908 <> :tactics_scope:x_'_#6'
+not 8011:8011 <> :tactics_scope:x_'_#7'
+not 8116:8116 <> :tactics_scope:x_'_#8'
+not 8223:8223 <> :tactics_scope:x_'_#9'
+not 8332:8332 <> :tactics_scope:x_'_#10'
+not 8444:8444 <> :tactics_scope:x_'_#11'
+not 8558:8558 <> :tactics_scope:x_'_#12'
+not 8674:8674 <> :tactics_scope:x_'_#13'
+not 8792:8792 <> :tactics_scope:x_'_#14'
+not 8912:8912 <> :tactics_scope:x_'_#15'
+not 9034:9034 <> :tactics_scope:x_'_#16'
+not 9158:9158 <> :tactics_scope:x_'_#17'
+not 9284:9284 <> :tactics_scope:x_'_#18'
+not 9412:9412 <> :tactics_scope:x_'_#19'
+not 9542:9542 <> :tactics_scope:x_'_#20'

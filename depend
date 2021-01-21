@@ -1,0 +1,42 @@
+Calculate.vo Calculate.glob Calculate.v.beautified: Calculate.v Tact.vo
+Calculate.vio: Calculate.v Tact.vio
+Cardinality.vo Cardinality.glob Cardinality.v.beautified: Cardinality.v Tact.vo Decide.vo
+Cardinality.vio: Cardinality.v Tact.vio Decide.vio
+Consensus.vo Consensus.glob Consensus.v.beautified: Consensus.v Tact.vo Relation.vo Decide.vo Weight.vo Cardinality.vo Calculate.vo Majority.vo HashgraphFacts.vo Sees.vo Round.vo Progress.vo Vote.vo Decision.vo
+Consensus.vio: Consensus.v Tact.vio Relation.vio Decide.vio Weight.vio Cardinality.vio Calculate.vio Majority.vio HashgraphFacts.vio Sees.vio Round.vio Progress.vio Vote.vio Decision.vio
+Decide.vo Decide.glob Decide.v.beautified: Decide.v Tact.vo Relation.vo
+Decide.vio: Decide.v Tact.vio Relation.vio
+Decision.vo Decision.glob Decision.v.beautified: Decision.v Tact.vo Relation.vo Decide.vo Weight.vo Calculate.vo Majority.vo HashgraphFacts.vo Sees.vo Round.vo Vote.vo
+Decision.vio: Decision.v Tact.vio Relation.vio Decide.vio Weight.vio Calculate.vio Majority.vio HashgraphFacts.vio Sees.vio Round.vio Vote.vio
+Fairness.vo Fairness.glob Fairness.v.beautified: Fairness.v Tact.vo Decide.vo Relation.vo Majority.vo Cardinality.vo HashgraphFacts.vo Sees.vo Round.vo Progress.vo Vote.vo Decision.vo Consensus.vo Famous.vo
+Fairness.vio: Fairness.v Tact.vio Decide.vio Relation.vio Majority.vio Cardinality.vio HashgraphFacts.vio Sees.vio Round.vio Progress.vio Vote.vio Decision.vio Consensus.vio Famous.vio
+Famous.vo Famous.glob Famous.v.beautified: Famous.v Tact.vo Relation.vo Decide.vo Weight.vo Calculate.vo Majority.vo HashgraphFacts.vo Sees.vo Round.vo Vote.vo Decision.vo Consensus.vo
+Famous.vio: Famous.v Tact.vio Relation.vio Decide.vio Weight.vio Calculate.vio Majority.vio HashgraphFacts.vio Sees.vio Round.vio Vote.vio Decision.vio Consensus.vio
+Hashgraph.vo Hashgraph.glob Hashgraph.v.beautified: Hashgraph.v Tact.vo Relation.vo Decide.vo Cardinality.vo Weight.vo Majority.vo
+Hashgraph.vio: Hashgraph.v Tact.vio Relation.vio Decide.vio Cardinality.vio Weight.vio Majority.vio
+HashgraphFacts.vo HashgraphFacts.glob HashgraphFacts.v.beautified: HashgraphFacts.v Decide.vo Tact.vo Relation.vo Weight.vo Calculate.vo Majority.vo Hashgraph.vo
+HashgraphFacts.vio: HashgraphFacts.v Decide.vio Tact.vio Relation.vio Weight.vio Calculate.vio Majority.vio Hashgraph.vio
+Majority.vo Majority.glob Majority.v.beautified: Majority.v Decide.vo Tact.vo Weight.vo Calculate.vo
+Majority.vio: Majority.v Decide.vio Tact.vio Weight.vio Calculate.vio
+Median.vo Median.glob Median.v.beautified: Median.v Tact.vo Decide.vo Relation.vo Weight.vo Calculate.vo Majority.vo Hashgraph.vo HashgraphFacts.vo Vote.vo
+Median.vio: Median.v Tact.vio Decide.vio Relation.vio Weight.vio Calculate.vio Majority.vio Hashgraph.vio HashgraphFacts.vio Vote.vio
+Order.vo Order.glob Order.v.beautified: Order.v Tact.vo Decide.vo Relation.vo HashgraphFacts.vo Sees.vo Round.vo Progress.vo Decision.vo Consensus.vo Famous.vo Received.vo Median.vo
+Order.vio: Order.v Tact.vio Decide.vio Relation.vio HashgraphFacts.vio Sees.vio Round.vio Progress.vio Decision.vio Consensus.vio Famous.vio Received.vio Median.vio
+Progress.vo Progress.glob Progress.v.beautified: Progress.v Tact.vo Decide.vo Cardinality.vo Calculate.vo Majority.vo Relation.vo HashgraphFacts.vo Sees.vo Round.vo
+Progress.vio: Progress.v Tact.vio Decide.vio Cardinality.vio Calculate.vio Majority.vio Relation.vio HashgraphFacts.vio Sees.vio Round.vio
+Received.vo Received.glob Received.v.beautified: Received.v Tact.vo Decide.vo Relation.vo HashgraphFacts.vo Round.vo Progress.vo Decision.vo Consensus.vo Famous.vo Fairness.vo
+Received.vio: Received.v Tact.vio Decide.vio Relation.vio HashgraphFacts.vio Round.vio Progress.vio Decision.vio Consensus.vio Famous.vio Fairness.vio
+Relation.vo Relation.glob Relation.v.beautified: Relation.v Tact.vo
+Relation.vio: Relation.v Tact.vio
+Round.vo Round.glob Round.v.beautified: Round.v Tact.vo Decide.vo Majority.vo Relation.vo HashgraphFacts.vo Sees.vo
+Round.vio: Round.v Tact.vio Decide.vio Majority.vio Relation.vio HashgraphFacts.vio Sees.vio
+Sees.vo Sees.glob Sees.v.beautified: Sees.v Decide.vo Tact.vo Relation.vo Majority.vo HashgraphFacts.vo
+Sees.vio: Sees.v Decide.vio Tact.vio Relation.vio Majority.vio HashgraphFacts.vio
+Tact.vo Tact.glob Tact.v.beautified: Tact.v
+Tact.vio: Tact.v
+Timestamp.vo Timestamp.glob Timestamp.v.beautified: Timestamp.v Tact.vo Decide.vo Relation.vo Majority.vo Weight.vo HashgraphFacts.vo Sees.vo Round.vo Progress.vo Vote.vo Decision.vo Consensus.vo Famous.vo Fairness.vo Received.vo Median.vo Order.vo
+Timestamp.vio: Timestamp.v Tact.vio Decide.vio Relation.vio Majority.vio Weight.vio HashgraphFacts.vio Sees.vio Round.vio Progress.vio Vote.vio Decision.vio Consensus.vio Famous.vio Fairness.vio Received.vio Median.vio Order.vio
+Vote.vo Vote.glob Vote.v.beautified: Vote.v Tact.vo Relation.vo Decide.vo Weight.vo Calculate.vo Majority.vo HashgraphFacts.vo Sees.vo Round.vo
+Vote.vio: Vote.v Tact.vio Relation.vio Decide.vio Weight.vio Calculate.vio Majority.vio HashgraphFacts.vio Sees.vio Round.vio
+Weight.vo Weight.glob Weight.v.beautified: Weight.v Tact.vo Decide.vo
+Weight.vio: Weight.v Tact.vio Decide.vio

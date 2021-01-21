@@ -1,0 +1,637 @@
+DIGEST b9f65360427b6a3d443a6db0060bdadf
+FHashgraph
+R89:92 Coq.Bool.Bool <> <> lib
+R110:113 Coq.Lists.List <> <> lib
+R131:135 Coq.omega.Omega <> <> lib
+R154:157 Tact <> <> lib
+R175:182 Relation <> <> lib
+R200:205 Decide <> <> lib
+R223:233 Cardinality <> <> lib
+R251:256 Weight <> <> lib
+R274:281 Majority <> <> lib
+ax 310:321 <> number_peers
+R325:327 Coq.Init.Datatypes <> nat ind
+ax 337:356 <> number_peers_minimum
+R372:375 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R360:371 Hashgraph <> number_peers defax
+ax 392:395 <> peer
+ax 412:422 <> peer_eq_dec
+R440:443 Hashgraph <> peer defax
+R447:447 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R453:457 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R464:464 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R449:451 Coq.Init.Logic <> :type_scope:x_'='_x not
+R448:448 Hashgraph <> a var
+R452:452 Hashgraph <> b var
+R459:462 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R458:458 Hashgraph <> a var
+R463:463 Hashgraph <> b var
+ax 474:488 <> number_of_peers
+R492:502 Cardinality <> cardinality def
+R518:529 Hashgraph <> number_peers defax
+R506:510 Majority <> every def
+R512:515 Hashgraph <> peer defax
+ax 545:549 <> stake
+R557:560 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R561:563 Coq.Init.Datatypes <> nat ind
+R553:556 Hashgraph <> peer defax
+ax 573:586 <> stake_positive
+R607:609 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R600:604 Hashgraph <> stake defax
+R606:606 Hashgraph <> a var
+ax 620:636 <> no_majority_stake
+R650:651 Coq.Init.Logic <> :type_scope:'~'_x not
+R652:659 Majority <> majority def
+R674:678 Majority <> every def
+R668:669 Coq.Init.Logic <> eq ind
+R671:671 Hashgraph <> a var
+R661:665 Hashgraph <> stake defax
+ax 694:704 <> total_stake
+R708:710 Coq.Init.Datatypes <> nat ind
+ax 720:734 <> the_total_stake
+R738:743 Weight <> weight def
+R757:767 Hashgraph <> total_stake defax
+R751:755 Majority <> every def
+R745:749 Hashgraph <> stake defax
+ax 783:788 <> honest
+R796:799 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R792:795 Hashgraph <> peer defax
+ax 813:832 <> supermajority_honest
+R836:848 Majority <> supermajority def
+R863:867 Majority <> every def
+R856:861 Hashgraph <> honest defax
+R850:854 Hashgraph <> stake defax
+ax 877:897 <> distinct_honest_peers
+R901:907 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R911:912 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R921:924 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R913:918 Hashgraph <> honest defax
+R920:920 Hashgraph <> a var
+R933:936 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R925:930 Hashgraph <> honest defax
+R932:932 Hashgraph <> b var
+R938:941 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R937:937 Hashgraph <> a var
+R942:942 Hashgraph <> b var
+ax 973:977 <> event
+ax 994:1005 <> event_eq_dec
+R1023:1027 Hashgraph <> event defax
+R1031:1031 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1037:1041 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1048:1048 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1033:1035 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1032:1032 Hashgraph <> e var
+R1036:1036 Hashgraph <> f var
+R1043:1046 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1042:1042 Hashgraph <> e var
+R1047:1047 Hashgraph <> f var
+ax 1062:1068 <> creator
+R1077:1080 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1081:1084 Hashgraph <> peer defax
+R1072:1076 Hashgraph <> event defax
+ax 1150:1156 <> parents
+R1165:1168 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1174:1177 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1183:1186 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1178:1182 Hashgraph <> event defax
+R1169:1173 Hashgraph <> event defax
+R1160:1164 Hashgraph <> event defax
+ax 1200:1210 <> parents_fun
+R1253:1260 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1276:1283 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1290:1293 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1285:1287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1284:1284 Hashgraph <> e var
+R1288:1289 Hashgraph <> e' var
+R1295:1297 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1294:1294 Hashgraph <> f var
+R1298:1299 Hashgraph <> f' var
+R1261:1267 Hashgraph <> parents defax
+R1275:1275 Hashgraph <> g var
+R1272:1273 Hashgraph <> f' var
+R1269:1270 Hashgraph <> e' var
+R1240:1246 Hashgraph <> parents defax
+R1252:1252 Hashgraph <> g var
+R1250:1250 Hashgraph <> f var
+R1248:1248 Hashgraph <> e var
+ax 1352:1366 <> parents_creator
+R1403:1410 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1420:1422 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1411:1417 Hashgraph <> creator defax
+R1419:1419 Hashgraph <> e var
+R1423:1429 Hashgraph <> creator defax
+R1431:1431 Hashgraph <> g var
+R1390:1396 Hashgraph <> parents defax
+R1402:1402 Hashgraph <> g var
+R1400:1400 Hashgraph <> f var
+R1398:1398 Hashgraph <> e var
+def 1446:1452 <> initial
+R1459:1463 Hashgraph <> event defax
+R1478:1479 Coq.Init.Logic <> :type_scope:'~'_x not
+R1480:1486 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1490:1491 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1492:1498 Hashgraph <> parents defax
+R1504:1504 Hashgraph <> e var
+R1502:1502 Hashgraph <> g var
+R1500:1500 Hashgraph <> f var
+ax 1514:1527 <> initial_decide
+R1556:1559 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1547:1553 Hashgraph <> initial def
+R1555:1555 Hashgraph <> e var
+R1560:1566 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1570:1571 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1572:1578 Hashgraph <> parents defax
+R1584:1584 Hashgraph <> e var
+R1582:1582 Hashgraph <> g var
+R1580:1580 Hashgraph <> f var
+ind 1694:1699 <> parent
+constr 1731:1737 <> parent1
+constr 1788:1794 <> parent2
+R1708:1711 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1717:1720 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1712:1716 Hashgraph <> event defax
+R1703:1707 Hashgraph <> event defax
+R1766:1773 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1774:1779 Hashgraph <> parent ind
+R1783:1783 Hashgraph <> g var
+R1781:1781 Hashgraph <> e var
+R1753:1759 Hashgraph <> parents defax
+R1765:1765 Hashgraph <> g var
+R1763:1763 Hashgraph <> f var
+R1761:1761 Hashgraph <> e var
+R1823:1830 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1831:1836 Hashgraph <> parent ind
+R1840:1840 Hashgraph <> g var
+R1838:1838 Hashgraph <> f var
+R1810:1816 Hashgraph <> parents defax
+R1822:1822 Hashgraph <> g var
+R1820:1820 Hashgraph <> f var
+R1818:1818 Hashgraph <> e var
+ax 1850:1868 <> parent_well_founded
+R1872:1883 Coq.Init.Wf <> well_founded def
+R1885:1890 Hashgraph <> parent ind
+def 1905:1915 <> self_parent
+R1924:1928 Hashgraph <> event defax
+R1943:1949 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1951:1952 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1953:1959 Hashgraph <> parents defax
+R1965:1965 Hashgraph <> f var
+R1963:1963 Hashgraph <> g var
+R1961:1961 Hashgraph <> e var
+def 1981:1988 <> ancestor
+R1993:1996 Relation <> star ind
+R1998:2003 Hashgraph <> parent ind
+def 2017:2031 <> strict_ancestor
+R2036:2039 Relation <> plus def
+R2041:2046 Hashgraph <> parent ind
+def 2060:2072 <> self_ancestor
+R2077:2080 Relation <> star ind
+R2082:2092 Hashgraph <> self_parent def
+def 2106:2125 <> strict_self_ancestor
+R2130:2133 Relation <> plus def
+R2135:2145 Hashgraph <> self_parent def
+R2170:2184 Hashgraph <> strict_ancestor def
+not 2158:2158 <> :event_scope:x_'@'_x
+R2266:2273 Hashgraph <> ancestor def
+not 2253:2253 <> :event_scope:x_'@='_x
+R2354:2373 Hashgraph <> strict_self_ancestor def
+not 2342:2342 <> :event_scope:x_'$'_x
+R2455:2467 Hashgraph <> self_ancestor def
+not 2442:2442 <> :event_scope:x_'$='_x
+def 2579:2582 <> fork
+R2591:2595 Hashgraph <> event defax
+R2631:2636 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2619:2621 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2610:2616 Hashgraph <> creator defax
+R2618:2618 Hashgraph <> e var
+R2622:2628 Hashgraph <> creator defax
+R2630:2630 Hashgraph <> f var
+R2645:2650 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2637:2638 Coq.Init.Logic <> :type_scope:'~'_x not
+R2640:2643 Hashgraph <> :event_scope:x_'$='_x not
+R2639:2639 Hashgraph <> e var
+R2644:2644 Hashgraph <> f var
+R2651:2652 Coq.Init.Logic <> :type_scope:'~'_x not
+R2654:2657 Hashgraph <> :event_scope:x_'$='_x not
+R2653:2653 Hashgraph <> f var
+R2658:2658 Hashgraph <> e var
+ax 2734:2739 <> sample
+ax 2760:2764 <> spawn
+R2774:2777 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2781:2784 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2785:2789 Hashgraph <> event defax
+R2778:2780 Coq.Init.Datatypes <> nat ind
+R2768:2773 Hashgraph <> sample defax
+ax 2799:2807 <> spawn_inj
+R2848:2851 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2853:2855 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2852:2852 Hashgraph <> i var
+R2856:2856 Hashgraph <> j var
+R2836:2838 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2827:2831 Hashgraph <> spawn defax
+R2835:2835 Hashgraph <> i var
+R2833:2833 Hashgraph <> s var
+R2839:2843 Hashgraph <> spawn defax
+R2847:2847 Hashgraph <> j var
+R2845:2845 Hashgraph <> s var
+ax 2866:2877 <> spawn_parent
+R2921:2928 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2929:2935 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2937:2938 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2952:2955 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2940:2942 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2939:2939 Hashgraph <> x var
+R2943:2947 Hashgraph <> spawn defax
+R2951:2951 Hashgraph <> j var
+R2949:2949 Hashgraph <> s var
+R2957:2959 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2956:2956 Hashgraph <> j var
+R2960:2960 Hashgraph <> i var
+R2901:2906 Hashgraph <> parent ind
+R2911:2915 Hashgraph <> spawn defax
+R2919:2919 Hashgraph <> i var
+R2917:2917 Hashgraph <> s var
+R2908:2908 Hashgraph <> x var
+ax 2970:2980 <> spawn_forks
+R3032:3039 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3068:3075 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3076:3080 Coq.Init.Logic <> False ind
+R3040:3043 Hashgraph <> fork def
+R3058:3062 Hashgraph <> spawn defax
+R3066:3066 Hashgraph <> j var
+R3064:3064 Hashgraph <> s var
+R3046:3050 Hashgraph <> spawn defax
+R3054:3054 Hashgraph <> i var
+R3052:3052 Hashgraph <> s var
+R3004:3009 Hashgraph <> honest defax
+R3012:3018 Hashgraph <> creator defax
+R3021:3025 Hashgraph <> spawn defax
+R3029:3029 Hashgraph <> i var
+R3027:3027 Hashgraph <> s var
+ax 3090:3099 <> no_orphans
+R3113:3119 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3123:3124 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3126:3128 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3125:3125 Hashgraph <> x var
+R3129:3133 Hashgraph <> spawn defax
+R3137:3137 Hashgraph <> i var
+R3135:3135 Hashgraph <> s var
+ax 3226:3242 <> honest_peers_sync
+R3276:3283 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3292:3299 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3306:3313 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3314:3320 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3324:3334 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3341:3353 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3336:3339 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3335:3335 Hashgraph <> i var
+R3340:3340 Hashgraph <> j var
+R3360:3372 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3355:3358 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3354:3354 Hashgraph <> j var
+R3359:3359 Hashgraph <> k var
+R3396:3408 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3392:3394 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3373:3379 Hashgraph <> creator defax
+R3382:3386 Hashgraph <> spawn defax
+R3390:3390 Hashgraph <> j var
+R3388:3388 Hashgraph <> s var
+R3395:3395 Hashgraph <> a var
+R3432:3444 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3428:3430 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3409:3415 Hashgraph <> creator defax
+R3418:3422 Hashgraph <> spawn defax
+R3426:3426 Hashgraph <> k var
+R3424:3424 Hashgraph <> s var
+R3431:3431 Hashgraph <> b var
+R3454:3456 Hashgraph <> :event_scope:x_'@'_x not
+R3445:3449 Hashgraph <> spawn defax
+R3453:3453 Hashgraph <> j var
+R3451:3451 Hashgraph <> s var
+R3457:3461 Hashgraph <> spawn defax
+R3465:3465 Hashgraph <> k var
+R3463:3463 Hashgraph <> s var
+R3301:3304 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3300:3300 Hashgraph <> a var
+R3305:3305 Hashgraph <> b var
+R3284:3289 Hashgraph <> honest defax
+R3291:3291 Hashgraph <> b var
+R3268:3273 Hashgraph <> honest defax
+R3275:3275 Hashgraph <> a var
+def 3481:3488 <> realtime
+R3501:3507 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3511:3516 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3530:3537 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3518:3520 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3517:3517 Hashgraph <> x var
+R3521:3525 Hashgraph <> spawn defax
+R3529:3529 Hashgraph <> i var
+R3527:3527 Hashgraph <> s var
+R3551:3558 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3539:3541 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3538:3538 Hashgraph <> y var
+R3542:3546 Hashgraph <> spawn defax
+R3550:3550 Hashgraph <> j var
+R3548:3548 Hashgraph <> s var
+R3560:3563 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3559:3559 Hashgraph <> i var
+R3564:3564 Hashgraph <> j var
+prf 3575:3589 <> realtime_member
+R3627:3634 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3649:3652 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3635:3642 Hashgraph <> realtime def
+R3648:3648 Hashgraph <> x var
+R3646:3646 Hashgraph <> x var
+R3644:3644 Hashgraph <> s var
+R3653:3660 Hashgraph <> realtime def
+R3666:3666 Hashgraph <> y var
+R3664:3664 Hashgraph <> y var
+R3662:3662 Hashgraph <> s var
+R3613:3620 Hashgraph <> realtime def
+R3626:3626 Hashgraph <> y var
+R3624:3624 Hashgraph <> x var
+R3622:3622 Hashgraph <> s var
+prf 3838:3851 <> realtime_trans
+R3865:3874 Coq.Relations.Relation_Definitions <> transitive def
+R3883:3890 Hashgraph <> realtime def
+R3892:3892 Hashgraph <> s var
+R3876:3880 Hashgraph <> event defax
+R4032:4033 Tact <> :tactics_scope:x_'_#3' not
+R4023:4031 Hashgraph <> spawn_inj prfax
+R4032:4033 Tact <> :tactics_scope:x_'_#3' not
+R4023:4031 Hashgraph <> spawn_inj prfax
+prf 4105:4120 <> realtime_antisym
+R4134:4146 Coq.Relations.Relation_Definitions <> antisymmetric def
+R4155:4162 Hashgraph <> realtime def
+R4164:4164 Hashgraph <> s var
+R4148:4152 Hashgraph <> event defax
+R4294:4295 Tact <> :tactics_scope:x_'_#3' not
+R4285:4293 Hashgraph <> spawn_inj prfax
+R4294:4295 Tact <> :tactics_scope:x_'_#3' not
+R4285:4293 Hashgraph <> spawn_inj prfax
+R4327:4328 Tact <> :tactics_scope:x_'_#3' not
+R4318:4326 Hashgraph <> spawn_inj prfax
+R4327:4328 Tact <> :tactics_scope:x_'_#3' not
+R4318:4326 Hashgraph <> spawn_inj prfax
+prf 4376:4390 <> realtime_parent
+R4428:4435 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4446:4453 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4454:4461 Hashgraph <> realtime def
+R4467:4467 Hashgraph <> y var
+R4465:4465 Hashgraph <> x var
+R4463:4463 Hashgraph <> s var
+R4436:4441 Hashgraph <> parent ind
+R4445:4445 Hashgraph <> y var
+R4443:4443 Hashgraph <> x var
+R4414:4421 Hashgraph <> realtime def
+R4427:4427 Hashgraph <> y var
+R4425:4425 Hashgraph <> y var
+R4423:4423 Hashgraph <> s var
+R4553:4554 Tact <> :tactics_scope:x_'_#3' not
+R4541:4552 Hashgraph <> spawn_parent prfax
+R4553:4554 Tact <> :tactics_scope:x_'_#3' not
+R4541:4552 Hashgraph <> spawn_parent prfax
+prf 4638:4654 <> ancestor_realtime
+R4692:4699 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4706:4713 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4714:4721 Hashgraph <> realtime def
+R4727:4727 Hashgraph <> y var
+R4725:4725 Hashgraph <> x var
+R4723:4723 Hashgraph <> s var
+R4701:4704 Hashgraph <> :event_scope:x_'@='_x not
+R4700:4700 Hashgraph <> x var
+R4705:4705 Hashgraph <> y var
+R4678:4685 Hashgraph <> realtime def
+R4691:4691 Hashgraph <> y var
+R4689:4689 Hashgraph <> y var
+R4687:4687 Hashgraph <> s var
+R4772:4773 Tact <> :tactics_scope:x_'_#4' not
+R4762:4771 Relation <> star_starr thm
+R4772:4773 Tact <> :tactics_scope:x_'_#4' not
+R4762:4771 Relation <> star_starr thm
+R4892:4899 Hashgraph <> realtime def
+R4892:4899 Hashgraph <> realtime def
+R4930:4944 Hashgraph <> realtime_parent thm
+R4930:4944 Hashgraph <> realtime_parent thm
+R4965:4978 Hashgraph <> realtime_trans thm
+R4965:4978 Hashgraph <> realtime_trans thm
+R5011:5025 Hashgraph <> realtime_member thm
+R5011:5025 Hashgraph <> realtime_member thm
+constr 5087:5094 <> mk_world
+rec 5071:5075 <> world
+proj 5100:5105 <> member
+proj 5129:5140 <> world_closed
+proj 5199:5209 <> world_forks
+R5114:5117 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5109:5113 Hashgraph <> event defax
+R5168:5171 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5180:5183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5184:5189 Hashgraph <> member meth
+R5191:5191 Hashgraph <> x var
+R5172:5177 Hashgraph <> member meth
+R5179:5179 Hashgraph <> y var
+R5163:5166 Hashgraph <> :event_scope:x_'@='_x not
+R5162:5162 Hashgraph <> x var
+R5167:5167 Hashgraph <> y var
+R5245:5256 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5257:5258 Coq.Init.Logic <> :type_scope:'~'_x not
+R5259:5265 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5269:5270 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5279:5282 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5271:5276 Hashgraph <> member meth
+R5278:5278 Hashgraph <> e var
+R5291:5294 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5283:5288 Hashgraph <> member meth
+R5290:5290 Hashgraph <> f var
+R5303:5306 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5295:5298 Hashgraph <> fork def
+R5302:5302 Hashgraph <> f var
+R5300:5300 Hashgraph <> e var
+R5316:5318 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5307:5313 Hashgraph <> creator defax
+R5315:5315 Hashgraph <> e var
+R5319:5319 Hashgraph <> a var
+R5237:5242 Hashgraph <> honest defax
+R5244:5244 Hashgraph <> a var
+def 5339:5345 <> extends
+R5355:5359 Hashgraph <> world rec
+R5367:5370 Decide <> incl def
+R5384:5389 Hashgraph <> member proj
+R5391:5392 Hashgraph <> W' var
+R5373:5378 Hashgraph <> member proj
+R5380:5380 Hashgraph <> W var
+def 5409:5414 <> global
+R5421:5426 Hashgraph <> sample defax
+R5431:5435 Hashgraph <> world rec
+R5452:5459 Hashgraph <> mk_world constr
+R5471:5478 Hashgraph <> realtime def
+R5484:5484 Hashgraph <> x var
+R5482:5482 Hashgraph <> x var
+R5452:5459 Hashgraph <> mk_world constr
+R5471:5478 Hashgraph <> realtime def
+R5484:5484 Hashgraph <> x var
+R5482:5482 Hashgraph <> x var
+R5546:5547 Tact <> :tactics_scope:x_'_#3' not
+R5529:5545 Hashgraph <> ancestor_realtime thm
+R5546:5547 Tact <> :tactics_scope:x_'_#3' not
+R5529:5545 Hashgraph <> ancestor_realtime thm
+R5575:5589 Hashgraph <> realtime_member thm
+R5575:5589 Hashgraph <> realtime_member thm
+R5760:5770 Hashgraph <> spawn_forks prfax
+R5760:5770 Hashgraph <> spawn_forks prfax
+ax 6287:6299 <> first_regular
+R6303:6305 Coq.Init.Datatypes <> nat ind
+ax 6315:6331 <> first_regular_min
+R6348:6351 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R6335:6347 Hashgraph <> first_regular defax
+ax 6407:6415 <> coin_freq
+R6419:6421 Coq.Init.Datatypes <> nat ind
+ax 6431:6443 <> coin_freq_min
+R6456:6458 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R6447:6455 Hashgraph <> coin_freq defax
+R6460:6462 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R6463:6475 Hashgraph <> first_regular defax
+ax 6528:6536 <> timestamp
+R6545:6548 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6549:6551 Coq.Init.Datatypes <> nat ind
+R6540:6544 Hashgraph <> event defax
+ax 6565:6573 <> textorder
+R6582:6585 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6591:6594 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6595:6598 Coq.Init.Datatypes <> bool ind
+R6586:6590 Hashgraph <> event defax
+R6577:6581 Hashgraph <> event defax
+ax 6608:6622 <> textorder_order
+R6628:6632 Coq.Relations.Relation_Definitions <> order rec
+R6652:6658 Coq.Bool.Bool <> Is_true def
+R6661:6669 Hashgraph <> textorder defax
+R6673:6673 Hashgraph <> y var
+R6671:6671 Hashgraph <> x var
+R6634:6638 Hashgraph <> event defax
+ax 6685:6699 <> textorder_total
+R6744:6747 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6721:6727 Coq.Bool.Bool <> Is_true def
+R6730:6738 Hashgraph <> textorder defax
+R6742:6742 Hashgraph <> y var
+R6740:6740 Hashgraph <> x var
+R6748:6754 Coq.Bool.Bool <> Is_true def
+R6757:6765 Hashgraph <> textorder defax
+R6769:6769 Hashgraph <> x var
+R6767:6767 Hashgraph <> y var
+ax 6881:6884 <> coin
+R6893:6896 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6903:6906 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6907:6910 Coq.Init.Datatypes <> bool ind
+R6897:6902 Hashgraph <> sample defax
+R6888:6892 Hashgraph <> event defax
+def 7024:7030 <> similar
+R7040:7045 Hashgraph <> sample defax
+R7053:7055 Coq.Init.Datatypes <> nat ind
+R7063:7063 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7106:7115 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7175:7175 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7080:7083 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7093:7095 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7084:7088 Hashgraph <> spawn defax
+R7092:7092 Hashgraph <> j var
+R7090:7090 Hashgraph <> s var
+R7096:7100 Hashgraph <> spawn defax
+R7105:7105 Hashgraph <> j var
+R7102:7103 Hashgraph <> s' var
+R7075:7078 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R7074:7074 Hashgraph <> j var
+R7079:7079 Hashgraph <> i var
+R7131:7134 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7153:7155 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7135:7138 Hashgraph <> coin defax
+R7152:7152 Hashgraph <> s var
+R7141:7145 Hashgraph <> spawn defax
+R7149:7149 Hashgraph <> j var
+R7147:7147 Hashgraph <> s var
+R7156:7159 Hashgraph <> coin defax
+R7173:7174 Hashgraph <> s' var
+R7162:7166 Hashgraph <> spawn defax
+R7170:7170 Hashgraph <> j var
+R7168:7168 Hashgraph <> s var
+R7127:7129 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R7126:7126 Hashgraph <> j var
+R7130:7130 Hashgraph <> i var
+ax 7480:7497 <> eventual_agreement
+R7517:7519 Coq.Init.Datatypes <> nat ind
+R7529:7534 Hashgraph <> sample defax
+R7547:7550 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7556:7559 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7551:7555 Hashgraph <> event defax
+R7544:7546 Coq.Init.Datatypes <> nat ind
+R7576:7579 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7586:7589 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7580:7585 Hashgraph <> sample defax
+R7573:7575 Coq.Init.Datatypes <> nat ind
+R7601:7601 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7639:7647 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7648:7648 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7688:7696 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7697:7697 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7730:7738 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7739:7739 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7808:7816 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7817:7823 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7827:7837 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7838:7838 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7870:7884 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7904:7904 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7854:7857 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7866:7868 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7858:7861 Hashgraph <> coin defax
+R7865:7865 Hashgraph <> s var
+R7863:7863 Hashgraph <> x var
+R7869:7869 Hashgraph <> v var
+R7849:7849 Hashgraph <> Q var
+R7853:7853 Hashgraph <> x var
+R7851:7851 Hashgraph <> i var
+R7894:7898 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R7885:7891 Coq.Bool.Bool <> Is_true def
+R7893:7893 Hashgraph <> v var
+R7899:7899 Hashgraph <> P var
+R7903:7903 Hashgraph <> s var
+R7901:7901 Hashgraph <> i var
+R7770:7773 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7788:7791 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7797:7801 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R7792:7792 Hashgraph <> P var
+R7796:7796 Hashgraph <> s var
+R7794:7794 Hashgraph <> i var
+R7802:7802 Hashgraph <> P var
+R7806:7807 Hashgraph <> s' var
+R7804:7804 Hashgraph <> i var
+R7774:7780 Hashgraph <> similar def
+R7787:7787 Hashgraph <> k var
+R7784:7785 Hashgraph <> s' var
+R7782:7782 Hashgraph <> s var
+R7755:7755 Hashgraph <> Q var
+R7760:7764 Hashgraph <> spawn defax
+R7768:7768 Hashgraph <> k var
+R7766:7766 Hashgraph <> s var
+R7757:7757 Hashgraph <> i var
+R7708:7721 Cardinality <> cardinality_lt def
+R7729:7729 Hashgraph <> n var
+R7724:7724 Hashgraph <> Q var
+R7726:7726 Hashgraph <> i var
+R7666:7669 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7670:7675 Hashgraph <> honest defax
+R7678:7684 Hashgraph <> creator defax
+R7686:7686 Hashgraph <> x var
+R7661:7661 Hashgraph <> Q var
+R7665:7665 Hashgraph <> x var
+R7663:7663 Hashgraph <> i var
+R7621:7624 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7630:7633 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7635:7637 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7634:7634 Hashgraph <> i var
+R7638:7638 Hashgraph <> j var
+R7625:7625 Hashgraph <> Q var
+R7629:7629 Hashgraph <> x var
+R7627:7627 Hashgraph <> j var
+R7616:7616 Hashgraph <> Q var
+R7620:7620 Hashgraph <> x var
+R7618:7618 Hashgraph <> i var
